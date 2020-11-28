@@ -21,15 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01e01ee0-f31b-4b9c-a8e8-1efbf882aea9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pillar-2.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pillar-3.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pillar-4.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pillar-5.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pillar-6.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/jquery-3.4.1.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606317417913</updated>
       <workItem from="1606317425732" duration="1210000" />
-      <workItem from="1606456286786" duration="2499000" />
+      <workItem from="1606456286786" duration="3736000" />
     </task>
     <servers />
   </component>
