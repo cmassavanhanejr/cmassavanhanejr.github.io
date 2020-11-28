@@ -27,7 +27,7 @@
 <body>
 
     <article class="resume-wrapper text-center position-relative">
-	    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+	    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg" id="cv">
 		    <header class="resume-header pt-4 pt-md-0">
 			    <div class="media flex-column flex-md-row">
 				    <img class="mr-3 img-fluid picture mx-auto" src="assets/images/profile_.jpg" alt="camjr_profile_photo">
@@ -36,16 +36,16 @@
 						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Carlos Alberto Massavanhane Jr.</h1>
 						    <div class="title mb-3">Desenvolvedor de soluções web</div>
 						    <ul class="list-unstyled">
-							    <li class="mb-2"><a href="mailto:cmassavanhanejr@gmail.com"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>cmassavanhane@gmail.com</a></li>
+							    <li class="mb-2"><a href="mailto:cmassavanhanejr@gmail.com"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>cmassavanhanejr@gmail.com</a></li>
 							    <li><a href="tel:00258845573729"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>00258 845573729</a></li>
 						    </ul>
 					    </div><!--//primary-info-->
 					    <div class="secondary-info ml-md-auto mt-2">
 						    <ul class="resume-social list-unstyled">
-								<li class="mb-3"><a href="#"><span class="fa-container text-center mr-2"><i class="fab fa-codepen fa-fw"></i></span>download pdf</a></li>
+								<li class="mb-3"><a href="" onclick="gerar_pdf()"><span class="fa-container text-center mr-2"><i class="fas fa-download"></i></span>download</a></li>
 				                <li class="mb-3"><a href="https://www.linkedin.com/in/carlos-alberto-massavanhane-j%C3%BAnior"><span class="fa-container text-center mr-2"><i class="fab fa-linkedin-in fa-fw"></i></span>linkedin</a></li>
 				                <li class="mb-3"><a href="https://github.com/cmassavanhanejr/"><span class="fa-container text-center mr-2"><i class="fab fa-github-alt fa-fw"></i></span>cmassavanhanejr</a></li>
-				                <li><a href="https://twitter.com/camjr97"><span class="fa-container text-center mr-2"><i class="fas fa-globe"></i></span>camjr97</a></li>
+				                <li><a href="https://twitter.com/camjr97"><span class="fa-container text-center mr-2"><i class="fas fa-dove"></i></span>camjr97</a></li>
 						    </ul>
 					    </div><!--//secondary-info-->
 					    
@@ -56,7 +56,7 @@
 			    <section class="resume-section summary-section mb-5">
 				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Resumo sobre mim</h2>
 				    <div class="resume-section-content">
-					    <p class="mb-0">Desenvolvo soluções para resolver problemas de organizções e da sociedade no seu todo. Sou apaixonado pelo mundo web e estou em constante aprendizado e explorando novas tecnologias web. Tenho ainda uma paixão muito forte em liderança e gestão de projectos.</p>
+					    <p class="mb-0">Desenvolvo soluções para resolver problemas de organizções e da sociedade no seu todo. Sou apaixonado pelo mundo web e estou em constante aprendizado e explorando novas tecnologias. Tenho ainda uma paixão muito forte em liderança e gestão de projectos.</p>
 				    </div>
 			    </section><!--//summary-section-->
 			    <div class="row">
@@ -65,12 +65,41 @@
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Experiência Profissional</h2>
 						    <div class="resume-section-content">
 							    <div class="resume-timeline position-relative">
+									<article class="resume-timeline-item position-relative pb-5">
+
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Co-Fundador & líder de desenvolvimento</h3>
+												<div class="resume-company-name ml-auto"><a href="https://www.khuma.co.mz">KHUMA</a></div>
+											</div><!--//row-->
+											<div class="resume-position-time">2020 - presente</div>
+										</div><!--//resume-timeline-item-header-->
+										<div class="resume-timeline-item-desc">
+											<p>Co-fundador do Khuma, startup dedicada a gestão online de perdidos e achados; e desenvolvimento de soluções tecnologicas.</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Percurso:</h4>
+											<ul>
+												<li>Janeiro a Agosto de 2020:  Concepção e Desenvolvimento de um Sistema de Perdidos e Achados</li>
+												<li>Outubro de 2020 - presente:  Desenho da página web; Concepção, análise e Desenvolvimento de um Sistema de Gestão de Processos Clínicos para o
+													<a href="http://isisfertilidade.co.mz">ISIS - Centro de Fertilidade</a></li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Tecnologias usadas:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Spring</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">MySQL</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Hibernate</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Java</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">jQuery</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">HTML/CSS</span></li>
+											</ul>
+										</div><!--//resume-timeline-item-desc-->
+
+									</article><!--//resume-timeline-item-->
 								    <article class="resume-timeline-item position-relative pb-5">
 									    
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
 										        <h3 class="resume-position-title font-weight-bold mb-1">Monitor</h3>
-										        <div class="resume-company-name ml-auto"><abbr title="Universidade Eduardo Mondlane - Dep. Matemática e Informática">UEM - DMI</abbr></div>
+										        <div class="resume-company-name ml-auto"><abbr title="Universidade Eduardo Mondlane - Dep. Matemática e Informática"><a href="https://www.uem.mz/">UEM-DMI</a></abbr></div>
 										    </div><!--//row-->
 										    <div class="resume-position-time">2019 » Presente</div>
 									    </div><!--//resume-timeline-item-header-->
@@ -78,9 +107,9 @@
 										    <p>Auxilio na preparação do plano analitico e de avaliação da disciplina, apoio na elaboração de fichas de exercicios e avaliações e acompanhamento dos estudantes durante e fora das aulas</p>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Percurso:</h4>
 											<ul>
-												<li>Semestre 1-2019: Monitor de <abbr title="Introdução à Tecnologias de Informaação e Comunicação">ITIC</abbr></li>
-												<li>Semestre 2-2019: Monitor de <abbr title="Introdução à Informática">II</abbr></li>
-												<li>Semestre 1-2020: Monitor de <abbr title="Amalise e Desenho De Sistemas II">ADSII</abbr></li>
+												<li>Semestre 1-2019: Monitor de Introdução as TICs</li>
+												<li>Semestre 2-2019: Monitor de Introdução a Informática</li>
+												<li>Semestre 1-2020: Monitor de Análise e Desenho de Sistemas II</li>
 											</ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Tecnologias Usadas:</h4>
 										    <ul class="list-inline">
@@ -94,7 +123,7 @@
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
 										        <h3 class="resume-position-title font-weight-bold mb-1">Técnico de <abbr title="Tecnologias de Informaação">TI</abbr></h3>
-										        <div class="resume-company-name ml-auto">Grupo CCMOZ lda. & AICA Consultório Médico</div>
+										        <div class="resume-company-name ml-auto"><a href="http://www.grupoccmoz.com/">Grupo CCMOZ lda.</a> & AICA Consultório Médico</div>
 										    </div><!--//row-->
 										    <div class="resume-position-time">2017 - presente</div>
 									    </div><!--//resume-timeline-item-header-->
@@ -126,7 +155,7 @@
 											<div class="resume-position-time">2017 - 2018</div>
 										</div><!--//resume-timeline-item-header-->
 										<div class="resume-timeline-item-desc">
-											<p>Implementação de estratégias, planos e procedimentos empresarias; Gestão de relações com fornecedores e clientes;</p>
+											<p>Implementação de estratégias, planos e procedimentos empresariais; Gestão de relações com fornecedores e clientes;</p>
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Ferramentas usadas:</h4>
 											<ul class="list-inline">
 												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Modelo de Negócios Canvas</span></li>
@@ -140,7 +169,7 @@
 										<div class="resume-timeline-item-header mb-2">
 											<div class="d-flex flex-column flex-md-row">
 												<h3 class="resume-position-title font-weight-bold mb-1">Programador e Analista Júnior</h3>
-												<div class="resume-company-name ml-auto"><abbr title="Instituto de Tecnologias Inovação e Serviços">ITIS</abbr></div>
+												<div class="resume-company-name ml-auto"><abbr title="Instituto de Tecnologias Inovação e Serviços"><a href="http://itis.ac.mz/">ITIS</a></abbr></div>
 											</div><!--//row-->
 											<div class="resume-position-time">2012 - 2014</div>
 										</div><!--//resume-timeline-item-header-->
@@ -164,34 +193,7 @@
 
 									</article><!--//resume-timeline-item-->
 
-									<article class="resume-timeline-item position-relative pb-5">
 
-										<div class="resume-timeline-item-header mb-2">
-											<div class="d-flex flex-column flex-md-row">
-												<h3 class="resume-position-title font-weight-bold mb-1">Co-Fundador & líder de desenvolvimento</h3>
-												<div class="resume-company-name ml-auto">Khuma</div>
-											</div><!--//row-->
-											<div class="resume-position-time">2020 - presente</div>
-										</div><!--//resume-timeline-item-header-->
-										<div class="resume-timeline-item-desc">
-											<p>Co-fundador do Khuma, startup dedicada a gestão de perdidos e desenvolvimento de soluções tecnologicas.</p>
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Percurso:</h4>
-											<ul>
-												<li>Janeiro a Agosto de 2020:  Concepção e Desenvolvimento de um Sistema de Perdidos e Achados</li>
-												<li>Outubro de 2020 - presente:  Concepção, análise e Desenvolvimento de um Sistema de Gestão de Processos Clínicos</li>
-											</ul>
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Tecnologias usadas:</h4>
-											<ul class="list-inline">
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Spring</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">MySQL</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Hibernate</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Java</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">jQuery</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">HTML/CSS</span></li>
-											</ul>
-										</div><!--//resume-timeline-item-desc-->
-
-									</article><!--//resume-timeline-item-->
 
 								    
 								    
@@ -309,6 +311,9 @@
 							            <li class="list-inline-item"><span class="badge badge-light">Git & Github</span></li>
 							            <li class="list-inline-item"><span class="badge badge-light">Herroku</span></li>
 							            <li class="list-inline-item"><span class="badge badge-light">AWS(EC2, Routes)</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">MySQL</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Oracle</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Hibernate</span></li>
 							            <li class="list-inline-item"><span class="badge badge-light">Netfly</span></li>
 							            <li class="list-inline-item"><span class="badge badge-light">Trello</span></li>
 							            <li class="list-inline-item"><span class="badge badge-light">Slack</span></li>
@@ -322,12 +327,12 @@
 							    <ul class="list-unstyled">
 								    <li class="mb-2">
 								        <div class="resume-degree font-weight-bold">Licenciatura em Informática</div>
-								        <div class="resume-degree-org">Universidade Eduardo Mondlane</div>
+								        <div class="resume-degree-org"><a href="https://www.uem.mz/">Universidade Eduardo Mondlane</a></div>
 								        <div class="resume-degree-time">2018 - Presente</div>
 								    </li>
 								    <li>
 								        <div class="resume-degree font-weight-bold">Técnico Médio em Sistemas Informáticos</div>
-								        <div class="resume-degree-org">Instituto de Transportes e Comunicações</div>
+								        <div class="resume-degree-org"><a href="https://www.transcom.co.mz/itc/">Instituto de Transportes e Comunicações</a></div>
 								        <div class="resume-degree-time">2013 - 2016</div>
 								    </li>
 							    </ul>
@@ -356,11 +361,13 @@
 						    </div>
 					    </section><!--//language-section-->
 					    <section class="resume-section interests-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Intereeses</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interesses</h2>
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled">
 								    <li class="mb-1">Natação</li>
 								    <li class="mb-1">Fotografia</li>
+								    <li class="mb-1">leitura</li>
+								    <li class="mb-1">Promoção de eventos</li>
 								    <li class="mb-1">Kyte boarding</li>
 							    </ul>
 						    </div>
@@ -379,6 +386,24 @@
 	    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
         <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
     </footer>
+
+	<script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+	<script>
+	function gerar_pdf(){
+		var pegar_dados=document.getElementById("cv").innerHTML;
+		var janela= window.open('','', 'Width=800,height=600');
+		janela.document.write('<html><head>');
+
+			janela.document.write('<title>CAMJr - Resume</title></head>');
+		janela.document.write('<body>');
+		//janela.document.write('<img alt="fatura" class="text-center" src="/img/SmartWater.png" width="280" height="230">');
+		janela.document.write(pegar_dados);
+
+		janela.document.write('</body></html>');
+		janela.document.close();
+		janela.print();
+		}
+	</script>
 
     
 
